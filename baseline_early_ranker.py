@@ -53,7 +53,7 @@ class MultitaskEarlyRanker(nn.Module):
         )
 
         # Pass through MTML to compute task logits
-        task_logits = self.mtml(concatenated_embeddings)
+        task_logits = self.mtml(concatenated_embeddings)  # [B, T]
 
         return task_logits
 
