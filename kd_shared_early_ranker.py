@@ -64,7 +64,7 @@ input_size_user = 10
 num_items = 1000  # Example number of items
 hidden_size = 20
 embedding_dim = 64
-num_user_tasks = 3  # 3 Tasks
+num_user_tasks = 4
 num_user_embeddings = 3  # Learning multiple modes/user interests
 
 # Instantiate KDSharedMultitaskEarlyRanker with tasks = T
